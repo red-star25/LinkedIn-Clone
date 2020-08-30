@@ -1,0 +1,7 @@
+.profile__body{
+    display: flex;
+}
+
+.profile__header{
+    margin-bottom: 50px;
+}

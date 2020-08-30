@@ -1,0 +1,113 @@
+
+.middleCard{
+    box-shadow: 0px 12px 10px -15px #111;    
+}
+
+.middleCard__wholiked{
+    display: flex;
+    justify-content: space-between;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+}
+
+.name>span{
+    margin-left: 10px;
+    font-size: 13px;
+    font-weight: 550;
+}
+
+.name>p{
+    margin-left: 5px;
+    font-size: 12px;
+    color: gray;
+}
+
+.more > .MuiSvgIcon-root{
+    font-size: 30px;
+    color: gray;
+    margin-right: 5px;
+}
+
+.divider{
+    border-top: 1px solid #D3D3D3;
+}
+
+
+
+.mainContent__header{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 20px;
+    height: 60px;
+}
+
+.header__logo{
+    margin-left: 0px;
+    height: 40px;
+    width: 40px;
+}
+
+.header__info{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.header__info>p{
+    font-size: 12px;
+    color: gray;
+}
+
+.postContent{
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.postMedia > img{
+    margin-top: 20px;
+    height: 305px;
+    width: 532px;
+    display: flex;
+}
+
+.likes__image{
+    margin-left: 10px;
+    object-fit: contain;
+    height: 62px;
+}
+
+.middleCard__likes{
+    display: flex;
+}
+
+.middleCard__likes >p{
+    margin-top: 22px;
+    margin-left: 5px;
+    font-size: 12px;
+    color: gray;
+}
+
+.middleCard__bottomIcons{
+    display: flex;
+    align-items: center;
+    color: gray;
+}
+
+.like >.MuiSvgIcon-root,.comment >.MuiSvgIcon-root,.reply>.MuiSvgIcon-root{
+    font-size: 22px;
+    padding: 12px;
+}
+
+.like>p,.comment>p,.reply>p{
+    margin-top: 12px;
+    font-size: 14px;
+}
+
+.like,
+.comment,
+.reply{
+    display: flex;
+}

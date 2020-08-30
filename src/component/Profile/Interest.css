@@ -1,0 +1,14 @@
+.interestComponent{
+    display: flex;
+}
+.interest__body{
+    display: flex;
+    margin-left: -120px;
+}
+
+.interest__body>img{
+    height: 45px;
+    width: 45px;
+    padding: 10px;
+    margin-bottom: 20px;
+}

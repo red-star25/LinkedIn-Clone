@@ -1,0 +1,15 @@
+redirectURL = http://localhost:3000
+urlEncoded : http%3A%2F%2Flocalhost%3A3000
+clientId = 775ac7cmrozbv3
+clientSecret = 0UjFVXUTLZ4ueTU1
+
+
+OAuth:
+GET https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=775ac7cmrozbv3&redirect_uri=http%3A%2F%2Flocalhost%3A3000&state=fooobar&scope=r_liteprofile%20r_emailaddress%20w_member_social
+
+
+Code:
+AQSrG8h27CVrupZ7eNa52FtOJunzyr0JIyC0rc-6lfWhq1XTTyv_p8PYby6k8bk2F72HGNxIT0OiChFX9r7EV8IkuzXBitukONkUkCkWTMbiN1KuMue4xSU-99HzDbW5QNDu7oM13DwBblMv_f9kVPpebLPr_LDngSEGjcbKKE2ziVxuCqF5e9rd5bezvg
+
+Access-Token:
+AQWUNTK9LKrdUeLugHplp25fyyXppCqh-r6QM8fUYCtgstY1Issx9CP_xzZ1GKAr202CnZWCmKtDQpGtPquIDvpDeAsOmXqKoLMlBPwfcwuA-VOC57YxA2v83P-Q3CmmqBgUYQBrz0vgApYRkz3M_nNmcbqKyEk48J2_ez4pV0g-G2KCsRdlbdsl284Au0REWXD3vxeaLGW9mWhMLDtT4USTqHJSs9Jmg9Olju3NlfiAFxbb1IFmXKAXDet4q9lRMxQ0u_-QTmAJEB5uj3Km-d0ljgl44lpPumNnx8LFkIwgMmGw70Lflw0EfZXEUCiYR7f8fJF7rf7qAzZ5QpQ4dmyFiwxTVQ

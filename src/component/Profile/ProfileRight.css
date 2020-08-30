@@ -1,0 +1,32 @@
+.profileRight{
+    margin: 40px 20px;
+}
+
+.profileRight>.divider{
+    border-top: 1px solid #D3D3D3;
+    margin-left: 20px;
+}
+
+.profileEdit,
+.profileInAnotherLanguage{
+    padding: 15px;
+    display: flex;
+    color: gray;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.profileEdit >.MuiSvgIcon-root,
+.profileInAnotherLanguage > .MuiSvgIcon-root {
+    font-size: 16px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.profile__profileView{
+    height: 250px;
+    width: 300px;
+    background-color: white;
+    margin-top: 30px;
+}

@@ -1,0 +1,410 @@
+.userImageSection{
+    display: flex;
+    justify-content: space-between;
+}
+
+.userName,.userAbility{
+    padding-bottom: 4px;
+    padding-top: 10px;
+}
+
+
+.button{
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.button>.MuiSvgIcon-root{
+    color: #006097;
+}
+
+.button__blue{
+    background-color: #006097;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 2px;
+}
+
+.button__grey{
+    border: 1px solid grey;
+    padding: 5px 15px;
+    color: grey;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 15px;
+    border-radius: 2px;
+}
+
+.profileLeft{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.profileInfo{
+    height: 400px;
+    width: 790px;
+    background-color: white;
+    box-shadow: 0px 10px 10px -15px #111;  
+}
+
+.profileAbout{
+    height: 280px;
+    width: 790px;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 10px 10px -15px #111;  
+}
+
+.profileFeatured{
+    height: 415px;
+    width: 790px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.profileActivity{
+    height: 350px;
+    width: 790px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.profileExperience{
+    height: 355px;
+    width: 790px;
+    background-color:  white;
+    margin-bottom: 20px;
+}
+
+.profileSkills{
+    height: 305px;
+    width: 790px;
+    background-color:  white;
+    margin-bottom: 20px;
+}
+
+.profileAccomp{
+    height: 250px;
+    width: 790px;
+    background-color:  white;
+    margin-bottom: 20px;
+}
+
+.profileInterest{
+    height: 360px;
+    width: 790px;
+    background-color:  white;
+    margin-bottom: 20px;
+}
+
+
+.userBackground{
+    width: 790px;
+    object-fit: cover;
+    height: 200px;
+}
+.userImg{
+    height: 150px;
+    width:150px;
+    border-radius: 99px;
+    margin-left: 25px;
+    margin-top: -110px;
+    border: 4px solid white;
+}
+
+.user__locationInfo{
+    display: flex;
+    margin-left: -5px;
+    margin-top: 5px;
+}
+
+.profileInfo__userInfo>p{
+    font-size:24px;
+    font-weight: 500;
+}
+
+.profileInfo__userInfo>span{
+    font-size: 18px;
+}
+
+.profileInfo__userInfo{
+    margin-left: 25px;
+    width: 450px;
+}
+
+.user__locationInfo{
+    margin-top: 5px;
+    margin-right: 20px;
+    display: flex;
+    width: 500px;
+}
+
+.user__locationInfo>.location{
+    padding-right: 10px;
+}
+
+
+.user__locationInfo>span{
+    margin-left: 5px;
+    margin-right: 7px;
+}
+
+.user__locationInfo>p{
+    color: #198ECC;
+}
+
+.about__TopHeader{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px;
+}
+
+.about__TopHeader>p{
+    font-size: larger;
+    font-weight: 500;
+}
+.about__TopHeader>.MuiSvgIcon-root{
+    color: #006097;
+}
+
+.about__Content{
+    padding-left: 20px;
+    font-size:15px;
+}
+
+.feature__headerRight{
+    display: flex;
+}
+.feature__headerRight>p{
+    color: #006097;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 4px;
+}
+
+.feature__headerLeft{
+    font-weight: 450;
+    font-size: 20px;
+}
+
+.feature__header{
+    display: flex;
+    justify-content: space-between;
+    margin:20px 30px;
+}
+
+.feature__headerRight>.MuiSvgIcon-root{
+    font-size: 25px;
+}
+
+.icon__blue>.MuiSvgIcon-root{
+    color: #006097;
+    font-size: 28px;
+}
+
+
+.icon__arrow>.MuiSvgIcon-root{
+    font-size: 40px;
+    margin-top: -5px;
+    margin-left: 10px;
+}
+
+
+.feature__body{
+ display: flex;
+ overflow: auto;
+ white-space: nowrap;
+ margin-left: 10px;
+ overflow-x: hidden;
+}
+
+.activity__body{
+    display: flex;
+}
+
+.activity__header{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.activity__header>p{
+    font-size: 20px;
+}
+
+.activity__header>span{
+    font-size: 12px;
+    color: #006097  ;
+    font-weight: 500;
+}
+
+.activity__bottom{
+    font-weight: 500;
+    color: #006097;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+justify-content: center;
+padding: 5px 0px;
+}
+
+.experience{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.experience__info{
+    display: flex;
+    margin-top: 10px;
+}
+.experience__info>img{
+    width: 50px;
+    height: 50px;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.experience__left>p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.experience__detail{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+.experience__detail>p{
+    font-size: 14px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+
+.experience__detail>span{
+    color: gray;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.experience__right{
+    display: flex;
+    flex-direction: column;
+}
+
+.experience__right>.MuiSvgIcon-root{
+    margin-bottom: 25px;
+    color: #006097;
+    font-size: 25px;
+}
+
+.profileSkills{
+    display: flex;
+    flex-direction: column;
+}
+
+.skillsHeader,.rightHeader{
+    padding: 25px; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.skillsHeader>p{
+    font-size: 20px;
+}
+
+.rightHeader{
+    margin-top: -20px;
+}
+.rightHeader>p{
+    color: gray;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+.rightHeader>.MuiSvgIcon-root{
+    color: #006097;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: -30px;
+    margin-top: -10px;
+}
+
+.skillButton{
+    border: 1.5px solid #4B9CC8;
+    color: #0976b1;
+    font-weight: 550;
+}
+
+.skillsBody{
+    padding: 0px 15px;
+    margin-top: -30px;
+}
+
+.skillsTitle{
+    margin-top: 10px;
+}
+
+.skillsTitle>h4{
+    margin-bottom: 20px;
+    color: #4E4E4E;
+    margin-top: 10px;
+}
+
+.skillBottom{
+    margin-top: 5px;
+}
+
+.profileAccomp{
+    display: flex;
+    flex-direction: column;
+}
+
+.Accomp__body{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 30px;
+}
+
+.left>p{
+    color: #0976b1;
+    font-size: 40px;
+    font-weight: 400;
+    margin-right: 20px;
+}
+
+.middle>p{
+    color: #0976b1;
+    font-weight: 500;
+    font-size: 14px;
+}
+.middle>span{
+    font-size: 14px;
+}
+.right{margin-right: -5px; color: #006097; font-weight: 800;}
+
+.accomp__divider{
+    margin: 10px 30px;
+}
+
+.Accomp__bottom{
+    margin-top: 10px;
+    display: flex;
+    padding: 10px 30px;
+}
+
+.interese__body{
+    display: flex;
+    justify-content: space-around;
+}

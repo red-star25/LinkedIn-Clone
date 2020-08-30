@@ -1,0 +1,114 @@
+.leftFirst{
+    margin-bottom: 10px;
+}
+
+.leftFirst__banner{
+    background-image: url("https://www.linkedinbackgroundphoto.com/wp-content/uploads/2017/09/Background_Photo_Place_Holder_Design-300x190.jpg");
+    background-position: center;
+    background-size: 462px;
+    height: 54px;
+}
+
+
+.leftFirst__profileImg{
+    height: 65px;
+    width: 65px;
+    border-radius: 99%;
+    border:2px solid #D3D3D3;
+    margin-left: 35%;
+    margin-top: -30px;
+}
+
+.leftFirst__profile > h4 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.leftFirst__profile >p {
+    text-align: center;
+    color: grey;
+    font-size: 12px;
+    margin: 0px 10px;
+}
+
+.leftFirst__feed{
+    margin: 0px 15px;
+}
+
+.feed__first{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.primary{
+    color: gray;
+    font-size: 12px;
+}
+.secondary{
+    font-size: 13px;
+    font-weight: bold;
+}
+.first__right{
+    color: #198ECC;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.feed__second{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feed__second > span{
+    color: gray;
+    font-size: 12px;
+}
+
+.feed__second > p{
+    color: #198ECC;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.feed__third{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.feed__third >span{
+    color: gray;
+    font-size: 13px;
+}
+.feed__third > p{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.leftFirst__savedItem{
+    border-top: 1px solid #D3D3D3;
+    display: flex;
+    margin-top: 20px;
+}
+
+.content{
+    margin-top: 15px;
+    margin-left: 10px;
+    display: flex;
+}
+
+.content > .MuiSvgIcon-root{
+    font-size: 20px;
+    color: gray;
+}
+
+.content > p{
+    margin-left: 10px;
+    font-size: 13px;
+    font-weight: 600;
+}

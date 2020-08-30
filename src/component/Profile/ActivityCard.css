@@ -1,0 +1,28 @@
+.activityCard{
+    display: flex;
+    padding: 20px;
+}
+
+.activityCard>img{
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 18px;
+}
+
+.whoShared{
+    font-size: 13px;
+}
+
+.reactions{
+    font-size: 12px;
+    color: gray;
+}

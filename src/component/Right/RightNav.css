@@ -1,0 +1,49 @@
+.nav>.divider{
+    border-top: 1px solid #D3D3D3;
+    margin: 15px 25px;
+}
+
+.nav__text{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav__text1{
+    margin-left: 65px;
+}
+.nav__text2{
+    margin-left: 35px;
+}
+.nav__text3{
+    margin-left: 65px;
+}
+
+.nav__text1,
+.nav__text2,
+.nav__text3{
+    display: flex;
+    color: gray;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.nav__text1>p,.nav__text2>p,.nav__text3>p{
+    margin-right: 30px;
+}
+
+.logo__text>img{
+    display: flex;
+    width: 60px;
+    object-fit: contain;
+}
+
+.logo__text{
+    margin-top: 20px;
+    display: flex;
+    margin-left: 65px;
+}
+
+.logo__text>p{
+    font-size: 12px;
+    margin-left: 10px;
+}
